@@ -1,0 +1,68 @@
+# Copyright (C) 2020  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and any partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details, at
+# https://fpgasoftware.intel.com/eula.
+
+# Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+# File: C:\Users\Mariapaola\Documents\LaureaMagistrale\Completati\DPS_Teoria\Game\PinPlanner.csv
+# Generated on: Mon Jul 28 19:52:16 2025
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus Prime software.
+
+To,Direction,Location,I/O Bank,VREF Group,Fitter Location,I/O Standard,Reserved,Current Strength,Slew Rate,Differential Pair,Strict Preservation
+blue[3],Output,PIN_N2,2,B2_N0,PIN_N2,2.5 V,,,,,
+blue[2],Output,PIN_P4,2,B2_N0,PIN_P4,2.5 V,,,,,
+blue[1],Output,PIN_T1,2,B2_N0,PIN_T1,2.5 V,,,,,
+blue[0],Output,PIN_P1,2,B2_N0,PIN_P1,2.5 V,,,,,
+clock_10MHz,Input,PIN_N5,2,B2_N0,PIN_N5,2.5 V,,,,,
+clock_50MHz,Input,PIN_P11,3,B3_N0,PIN_P11,2.5 V,,,,,
+green[3],Output,PIN_R1,2,B2_N0,PIN_R1,2.5 V,,,,,
+green[2],Output,PIN_R2,2,B2_N0,PIN_R2,2.5 V,,,,,
+green[1],Output,PIN_T2,2,B2_N0,PIN_T2,2.5 V,,,,,
+green[0],Output,PIN_W1,2,B2_N0,PIN_W1,2.5 V,,,,,
+hsync,Output,PIN_N3,2,B2_N0,PIN_N3,2.5 V,,,,,
+led[2],Output,PIN_A10,7,B7_N0,PIN_A10,2.5 V,,,,,
+led[1],Output,PIN_A9,7,B7_N0,PIN_A9,2.5 V,,,,,
+led[0],Output,PIN_A8,7,B7_N0,PIN_A8,2.5 V,,,,,
+nblank,Output,,,,PIN_AA20,,,,,,
+nsync,Output,,,,PIN_A13,,,,,,
+out_disp_1[7],Output,PIN_D15,7,B7_N0,PIN_D15,2.5 V,,,,,
+out_disp_1[6],Output,PIN_C17,7,B7_N0,PIN_C17,2.5 V,,,,,
+out_disp_1[5],Output,PIN_D17,7,B7_N0,PIN_D17,2.5 V,,,,,
+out_disp_1[4],Output,PIN_E16,7,B7_N0,PIN_E16,2.5 V,,,,,
+out_disp_1[3],Output,PIN_C16,7,B7_N0,PIN_C16,2.5 V,,,,,
+out_disp_1[2],Output,PIN_C15,7,B7_N0,PIN_C15,2.5 V,,,,,
+out_disp_1[1],Output,PIN_E15,7,B7_N0,PIN_E15,2.5 V,,,,,
+out_disp_1[0],Output,PIN_C14,7,B7_N0,PIN_C14,2.5 V,,,,,
+out_disp_2[7],Output,PIN_A16,7,B7_N0,PIN_A16,2.5 V,,,,,
+out_disp_2[6],Output,PIN_B17,7,B7_N0,PIN_B17,2.5 V,,,,,
+out_disp_2[5],Output,PIN_A18,7,B7_N0,PIN_A18,2.5 V,,,,,
+out_disp_2[4],Output,PIN_A17,7,B7_N0,PIN_A17,2.5 V,,,,,
+out_disp_2[3],Output,PIN_B16,7,B7_N0,PIN_B16,2.5 V,,,,,
+out_disp_2[2],Output,PIN_E18,6,B6_N0,PIN_E18,2.5 V,,,,,
+out_disp_2[1],Output,PIN_D18,6,B6_N0,PIN_D18,2.5 V,,,,,
+out_disp_2[0],Output,PIN_C18,7,B7_N0,PIN_C18,2.5 V,,,,,
+out_disp_3[7],Output,PIN_A19,7,B7_N0,PIN_A19,2.5 V,,,,,
+out_disp_3[6],Output,PIN_B22,6,B6_N0,PIN_B22,2.5 V,,,,,
+out_disp_3[5],Output,PIN_C22,6,B6_N0,PIN_C22,2.5 V,,,,,
+out_disp_3[4],Output,PIN_B21,6,B6_N0,PIN_B21,2.5 V,,,,,
+out_disp_3[3],Output,PIN_A21,6,B6_N0,PIN_A21,2.5 V,,,,,
+out_disp_3[2],Output,PIN_B19,7,B7_N0,PIN_B19,2.5 V,,,,,
+out_disp_3[1],Output,PIN_A20,7,B7_N0,PIN_A20,2.5 V,,,,,
+out_disp_3[0],Output,PIN_B20,6,B6_N0,PIN_B20,2.5 V,,,,,
+red[3],Output,PIN_Y1,3,B3_N0,PIN_Y1,2.5 V,,,,,
+red[2],Output,PIN_Y2,3,B3_N0,PIN_Y2,2.5 V,,,,,
+red[1],Output,PIN_V1,2,B2_N0,PIN_V1,2.5 V,,,,,
+red[0],Output,PIN_AA1,3,B3_N0,PIN_AA1,2.5 V,,,,,
+reset,Input,PIN_C10,7,B7_N0,PIN_C10,2.5 V,,,,,
+vsync,Output,PIN_N1,2,B2_N0,PIN_N1,2.5 V,,,,,
