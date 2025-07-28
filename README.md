@@ -1,46 +1,49 @@
 # Avoid Clash – FPGA Game in VHDL 🎮
 
-## Descrizione del Progetto
+## Project Description
 
-**Avoid Clash** è un videogioco arcade sviluppato in **VHDL** e implementato su **scheda FPGA Terasic DE10-Lite**. L’obiettivo del gioco è semplice: muovere una piattaforma (paddle) per evitare ostacoli che cadono dall’alto. Il giocatore può muoversi solo orizzontalmente tramite un joystick. Il punteggio aumenta col tempo, mentre le collisioni fanno perdere vite.
+**Avoid Clash** is an arcade-style game developed in **VHDL** and implemented on a **Terasic DE10-Lite FPGA board**. The goal of the game is simple: move a paddle to avoid falling obstacles. The player can move only horizontally using a joystick. The score increases over time, while collisions with obstacles cause the player to lose lives.
 
-Il progetto dimostra come sia possibile realizzare giochi interattivi direttamente su FPGA utilizzando linguaggio VHDL, sfruttando VGA, joystick, clock divider, generatori casuali (LFSR) e display a 7 segmenti.
+This project demonstrates how it is possible to develop interactive games directly on an FPGA using VHDL, taking advantage of VGA output, joystick input, clock dividers, pseudo-random number generators (LFSR), and 7-segment displays.
 
 ---
 
-## Hardware Utilizzato
+## Hardware Used
 
-- **Scheda FPGA**: Terasic DE10-Lite (Intel MAX 10)
-- **Joystick analogico**
-- **Monitor VGA (collegato via cavo VGA)**
-- **Display a 7 segmenti (integrati nella scheda)**
-- **LED per indicare le vite**
+- **FPGA Board**: Terasic DE10-Lite (Intel MAX 10)
+- **Analog Joystick**
+- **VGA Monitor** (connected via VGA cable)
+- **7-Segment Displays** (integrated on the board)
+- **LEDs** to indicate player lives
 
 ---
 
 ## Software
 
 - **Intel Quartus Prime Lite Edition**
-- Linguaggio: **VHDL**
-- Simulazione e sintesi logica direttamente in ambiente Quartus
+- Language: **VHDL**
+- Simulation and synthesis are performed directly in the Quartus environment
 
 ---
 
-## Come Funziona il Gioco
+## How the Game Works
 
-- Il gioco parte con 3 vite.
-- Un punto viene aggiunto ogni secondo di sopravvivenza.
-- Gli ostacoli cadono con velocità crescente e sono gestiti tramite un generatore pseudo-casuale (LFSR).
-- Se il paddle tocca un ostacolo, si perde una vita.
-- Il gioco termina quando:
-  - Si raggiungono **100 punti** → VITTORIA (schermo verde).
-  - Si perdono tutte le vite → GAME OVER (schermo rosso).
-- Il punteggio viene visualizzato su tre display a 7 segmenti.
-- Il gioco può essere riavviato tramite uno switch sulla board (reset).
+- The game starts with 3 lives.
+- One point is added for every second of survival.
+- Obstacles fall with increasing speed and are controlled by a pseudo-random number generator (LFSR).
+- If the paddle hits an obstacle, the player loses one life.
+- The game ends when:
+  - **100 points** are reached → WIN (green screen).
+  - All lives are lost → GAME OVER (red screen).
+- The current score is shown on three 7-segment displays.
+- The game can be restarted using a switch on the board (reset).
 
-## Contenuti del Progetto
+---
 
-La repository è organizzata in questo modo:
-- Code folder: cartella contenente tutto il codice del progetto
-- PinPlanner.csv: file contenente la lista dei pin utilizzati nel progetto, essenziale per replicare il setup della FPGA
-- Report.pdf: documentazione dettagliata utile per replicare il gioco. 
+## Project Contents
+
+The repository is organized as follows:
+- **Code folder**: contains all the VHDL source code of the project
+- **PinPlanner.csv**: a file listing all the pin assignments used in the project, essential to replicate the FPGA setup
+- **Report.pdf**: detailed documentation useful for reproducing and understanding the game logic
+
