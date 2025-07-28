@@ -38,3 +38,9 @@ Il progetto dimostra come sia possibile realizzare giochi interattivi direttamen
 - Il punteggio viene visualizzato su tre display a 7 segmenti.
 - Il gioco può essere riavviato tramite uno switch sulla board (reset).
 
+## Contenuti del Progetto
+
+La repository è organizzata in questo modo:
+- Code folder: cartella contenente tutto il codice del progetto
+- PinPlanner.csv: file contenente la lista dei pin utilizzati nel progetto, essenziale per replicare il setup della FPGA
+- Report.pdf: documentazione dettagliata utile per replicare il gioco. 
