@@ -1,0 +1,35 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlib unnamed
+vmap unnamed unnamed
+vlog -vlog01compat -work unnamed +incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules {C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_up_avalon_adv_adc.v}
+vlog -vlog01compat -work unnamed +incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules {C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_modular_adc_control.v}
+vlog -vlog01compat -work unnamed +incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules {C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_modular_adc_control_avrg_fifo.v}
+vlog -vlog01compat -work unnamed +incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules {C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_modular_adc_control_fsm.v}
+vlog -vlog01compat -work unnamed +incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules {C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_modular_adc_sample_store.v}
+vlog -vlog01compat -work unnamed +incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules {C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_modular_adc_sample_store_ram.v}
+vlog -vlog01compat -work unnamed +incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules {C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_modular_adc_sequencer.v}
+vlog -vlog01compat -work unnamed +incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules {C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_modular_adc_sequencer_csr.v}
+vlog -vlog01compat -work unnamed +incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules {C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_modular_adc_sequencer_ctrl.v}
+vlog -vlog01compat -work unnamed +incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules {C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/chsel_code_converter_sw_to_hw.v}
+vlog -vlog01compat -work unnamed +incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules {C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/DE10_Lite_ADC_Core_modular_adc_0.v}
+vlog -vlog01compat -work unnamed +incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules {C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/fiftyfivenm_adcblock_primitive_wrapper.v}
+vlog -vlog01compat -work unnamed +incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules {C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/fiftyfivenm_adcblock_top_wrapper.v}
+vlog -vlog01compat -work unnamed +incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules {C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/unnamed_adc_mega_0.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/db {C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/db/pll0_altpll.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/db {C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/db/max10_adc_pll_altpll.v}
+vcom -93 -work work {C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/pll0.vhd}
+vcom -93 -work work {C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/vga_controller.vhd}
+vcom -93 -work work {C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/hw_image_generator.vhd}
+vcom -93 -work unnamed {C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/unnamed.vhd}
+vcom -93 -work work {C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/clk.vhd}
+vcom -93 -work work {C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/Joystick.vhd}
+vcom -93 -work work {C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/LFSR.vhd}
+vcom -93 -work work {C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/clk_obj.vhd}
+vcom -93 -work work {C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/clock_points.vhd}
+

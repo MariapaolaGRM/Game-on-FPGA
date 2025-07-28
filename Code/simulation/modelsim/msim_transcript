@@ -1,0 +1,411 @@
+# Reading pref.tcl
+# do VGA_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlib unnamed
+# ** Warning: (vlib-34) Library already exists at "unnamed".
+# vmap unnamed unnamed
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap unnamed unnamed 
+# Modifying modelsim.ini
+# vlog -vlog01compat -work unnamed +incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules {C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_up_avalon_adv_adc.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:24:50 on Jun 12,2024
+# vlog -reportprogress 300 -vlog01compat -work unnamed "+incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules" C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_up_avalon_adv_adc.v 
+# -- Compiling module altera_up_avalon_adv_adc
+# 
+# Top level modules:
+# 	altera_up_avalon_adv_adc
+# End time: 12:24:50 on Jun 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work unnamed +incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules {C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_modular_adc_control.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:24:51 on Jun 12,2024
+# vlog -reportprogress 300 -vlog01compat -work unnamed "+incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules" C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_modular_adc_control.v 
+# -- Compiling module altera_modular_adc_control
+# 
+# Top level modules:
+# 	altera_modular_adc_control
+# End time: 12:24:51 on Jun 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work unnamed +incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules {C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_modular_adc_control_avrg_fifo.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:24:51 on Jun 12,2024
+# vlog -reportprogress 300 -vlog01compat -work unnamed "+incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules" C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_modular_adc_control_avrg_fifo.v 
+# -- Compiling module altera_modular_adc_control_avrg_fifo
+# 
+# Top level modules:
+# 	altera_modular_adc_control_avrg_fifo
+# End time: 12:24:51 on Jun 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work unnamed +incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules {C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_modular_adc_control_fsm.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:24:51 on Jun 12,2024
+# vlog -reportprogress 300 -vlog01compat -work unnamed "+incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules" C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_modular_adc_control_fsm.v 
+# -- Compiling module altera_modular_adc_control_fsm
+# 
+# Top level modules:
+# 	altera_modular_adc_control_fsm
+# End time: 12:24:52 on Jun 12,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work unnamed +incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules {C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_modular_adc_sample_store.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:24:52 on Jun 12,2024
+# vlog -reportprogress 300 -vlog01compat -work unnamed "+incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules" C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_modular_adc_sample_store.v 
+# -- Compiling module altera_modular_adc_sample_store
+# 
+# Top level modules:
+# 	altera_modular_adc_sample_store
+# End time: 12:24:52 on Jun 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work unnamed +incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules {C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_modular_adc_sample_store_ram.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:24:52 on Jun 12,2024
+# vlog -reportprogress 300 -vlog01compat -work unnamed "+incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules" C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_modular_adc_sample_store_ram.v 
+# -- Compiling module altera_modular_adc_sample_store_ram
+# 
+# Top level modules:
+# 	altera_modular_adc_sample_store_ram
+# End time: 12:24:52 on Jun 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work unnamed +incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules {C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_modular_adc_sequencer.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:24:52 on Jun 12,2024
+# vlog -reportprogress 300 -vlog01compat -work unnamed "+incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules" C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_modular_adc_sequencer.v 
+# -- Compiling module altera_modular_adc_sequencer
+# 
+# Top level modules:
+# 	altera_modular_adc_sequencer
+# End time: 12:24:52 on Jun 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work unnamed +incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules {C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_modular_adc_sequencer_csr.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:24:52 on Jun 12,2024
+# vlog -reportprogress 300 -vlog01compat -work unnamed "+incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules" C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_modular_adc_sequencer_csr.v 
+# -- Compiling module altera_modular_adc_sequencer_csr
+# 
+# Top level modules:
+# 	altera_modular_adc_sequencer_csr
+# End time: 12:24:52 on Jun 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work unnamed +incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules {C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_modular_adc_sequencer_ctrl.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:24:52 on Jun 12,2024
+# vlog -reportprogress 300 -vlog01compat -work unnamed "+incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules" C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_modular_adc_sequencer_ctrl.v 
+# -- Compiling module altera_modular_adc_sequencer_ctrl
+# 
+# Top level modules:
+# 	altera_modular_adc_sequencer_ctrl
+# End time: 12:24:52 on Jun 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work unnamed +incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules {C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/chsel_code_converter_sw_to_hw.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:24:52 on Jun 12,2024
+# vlog -reportprogress 300 -vlog01compat -work unnamed "+incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules" C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/chsel_code_converter_sw_to_hw.v 
+# -- Compiling module chsel_code_converter_sw_to_hw
+# 
+# Top level modules:
+# 	chsel_code_converter_sw_to_hw
+# End time: 12:24:52 on Jun 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work unnamed +incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules {C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/DE10_Lite_ADC_Core_modular_adc_0.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:24:52 on Jun 12,2024
+# vlog -reportprogress 300 -vlog01compat -work unnamed "+incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules" C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/DE10_Lite_ADC_Core_modular_adc_0.v 
+# -- Compiling module DE10_Lite_ADC_Core_modular_adc_0
+# 
+# Top level modules:
+# 	DE10_Lite_ADC_Core_modular_adc_0
+# End time: 12:24:52 on Jun 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work unnamed +incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules {C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/fiftyfivenm_adcblock_primitive_wrapper.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:24:52 on Jun 12,2024
+# vlog -reportprogress 300 -vlog01compat -work unnamed "+incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules" C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/fiftyfivenm_adcblock_primitive_wrapper.v 
+# -- Compiling module fiftyfivenm_adcblock_primitive_wrapper
+# 
+# Top level modules:
+# 	fiftyfivenm_adcblock_primitive_wrapper
+# End time: 12:24:52 on Jun 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work unnamed +incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules {C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/fiftyfivenm_adcblock_top_wrapper.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:24:52 on Jun 12,2024
+# vlog -reportprogress 300 -vlog01compat -work unnamed "+incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules" C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/fiftyfivenm_adcblock_top_wrapper.v 
+# ** Warning: (vlog-2083) C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/fiftyfivenm_adcblock_top_wrapper.v(37): Carriage return (0x0D) is not followed by a newline (0x0A).
+# -- Compiling module fiftyfivenm_adcblock_top_wrapper
+# 
+# Top level modules:
+# 	fiftyfivenm_adcblock_top_wrapper
+# End time: 12:24:52 on Jun 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vlog -vlog01compat -work unnamed +incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules {C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/unnamed_adc_mega_0.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:24:52 on Jun 12,2024
+# vlog -reportprogress 300 -vlog01compat -work unnamed "+incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules" C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/unnamed_adc_mega_0.v 
+# -- Compiling module unnamed_adc_mega_0
+# 
+# Top level modules:
+# 	unnamed_adc_mega_0
+# End time: 12:24:52 on Jun 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/db {C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/db/pll0_altpll.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:24:52 on Jun 12,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/db" C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/db/pll0_altpll.v 
+# -- Compiling module pll0_altpll
+# 
+# Top level modules:
+# 	pll0_altpll
+# End time: 12:24:52 on Jun 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/db {C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/db/max10_adc_pll_altpll.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:24:53 on Jun 12,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/db" C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/db/max10_adc_pll_altpll.v 
+# -- Compiling module MAX10_ADC_PLL_altpll
+# 
+# Top level modules:
+# 	MAX10_ADC_PLL_altpll
+# End time: 12:24:53 on Jun 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/pll0.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:24:53 on Jun 12,2024
+# vcom -reportprogress 300 -93 -work work C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/pll0.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity pll0
+# -- Compiling architecture SYN of pll0
+# End time: 12:24:53 on Jun 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/vga_controller.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:24:53 on Jun 12,2024
+# vcom -reportprogress 300 -93 -work work C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/vga_controller.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity vga_controller
+# -- Compiling architecture behavior of vga_controller
+# End time: 12:24:53 on Jun 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/hw_image_generator.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:24:53 on Jun 12,2024
+# vcom -reportprogress 300 -93 -work work C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/hw_image_generator.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity hw_image_generator
+# -- Compiling architecture behavior of hw_image_generator
+# End time: 12:24:53 on Jun 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work unnamed {C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/unnamed.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:24:53 on Jun 12,2024
+# vcom -reportprogress 300 -93 -work unnamed C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/unnamed.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity unnamed
+# -- Compiling architecture rtl of unnamed
+# End time: 12:24:53 on Jun 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/clk.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:24:53 on Jun 12,2024
+# vcom -reportprogress 300 -93 -work work C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/clk.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity clk
+# -- Compiling architecture clk_divider of clk
+# End time: 12:24:53 on Jun 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/Joystick.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:24:53 on Jun 12,2024
+# vcom -reportprogress 300 -93 -work work C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/Joystick.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity Joystick
+# -- Compiling architecture behave of Joystick
+# End time: 12:24:53 on Jun 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/LFSR.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:24:53 on Jun 12,2024
+# vcom -reportprogress 300 -93 -work work C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/LFSR.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity LFSR
+# -- Compiling architecture Behavioral of LFSR
+# End time: 12:24:53 on Jun 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/clk_obj.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:24:53 on Jun 12,2024
+# vcom -reportprogress 300 -93 -work work C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/clk_obj.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity clk_obj
+# -- Compiling architecture clk_divider of clk_obj
+# End time: 12:24:53 on Jun 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/clock_points.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:24:53 on Jun 12,2024
+# vcom -reportprogress 300 -93 -work work C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/clock_points.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity clk_points
+# -- Compiling architecture clk_divider of clk_points
+# End time: 12:24:53 on Jun 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/Seven_segment.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:24:53 on Jun 12,2024
+# vcom -reportprogress 300 -93 -work work C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/Seven_segment.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Seven_segment
+# -- Compiling architecture display_arc of Seven_segment
+# End time: 12:24:53 on Jun 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.hw_image_generator
+# vsim work.hw_image_generator 
+# Start time: 12:24:58 on Jun 12,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.hw_image_generator(behavior)
+# Loading work.seven_segment(display_arc)
+vsim work.hw_image_generator
+# End time: 12:25:06 on Jun 12,2024, Elapsed time: 0:00:08
+# Errors: 0, Warnings: 0
+# vsim work.hw_image_generator 
+# Start time: 12:25:06 on Jun 12,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.hw_image_generator(behavior)
+# Loading work.seven_segment(display_arc)
+add wave -position insertpoint  \
+sim:/hw_image_generator/border_sx \
+sim:/hw_image_generator/border_dx \
+sim:/hw_image_generator/reset \
+sim:/hw_image_generator/clock_points \
+sim:/hw_image_generator/lfsr \
+sim:/hw_image_generator/clk \
+sim:/hw_image_generator/move \
+sim:/hw_image_generator/clk_obj \
+sim:/hw_image_generator/disp_ena \
+sim:/hw_image_generator/row \
+sim:/hw_image_generator/column \
+sim:/hw_image_generator/red \
+sim:/hw_image_generator/green \
+sim:/hw_image_generator/blue \
+sim:/hw_image_generator/led \
+sim:/hw_image_generator/out_disp_1 \
+sim:/hw_image_generator/out_disp_2 \
+sim:/hw_image_generator/out_disp_3 \
+sim:/hw_image_generator/new_x \
+sim:/hw_image_generator/obs_y \
+sim:/hw_image_generator/obs_x \
+sim:/hw_image_generator/obs2_x2 \
+sim:/hw_image_generator/obs2_y2 \
+sim:/hw_image_generator/lives \
+sim:/hw_image_generator/points \
+sim:/hw_image_generator/stato \
+sim:/hw_image_generator/car_y \
+sim:/hw_image_generator/count \
+sim:/hw_image_generator/speed \
+sim:/hw_image_generator/Digit1 \
+sim:/hw_image_generator/Digit2 \
+sim:/hw_image_generator/Digit3
+force -freeze sim:/hw_image_generator/reset 0 0
+force -freeze sim:/hw_image_generator/clk 1 0, 0 {50 ps} -r 100
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/hw_image_generator/points 4 0
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/hw_image_generator/points 5 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 14:46:08 on Jun 12,2024, Elapsed time: 2:21:02
+# Errors: 0, Warnings: 0

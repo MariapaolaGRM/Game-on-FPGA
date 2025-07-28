@@ -1,0 +1,392 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/simulation/modelsim
+valtera_modular_adc_control
+Z1 !s110 1718187891
+!i10b 1
+!s100 cb0^UIbh]W?XM[Lb]3kWA3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IOG=^k?;`f[VL`;UeRXd[H1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1717075725
+8C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_modular_adc_control.v
+FC:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_modular_adc_control.v
+!i122 31
+L0 31 137
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1718187891.000000
+!s107 C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_modular_adc_control.v|
+!s90 -reportprogress|300|-vlog01compat|-work|unnamed|+incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules|C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_modular_adc_control.v|
+!i113 1
+Z7 o-vlog01compat -work unnamed
+Z8 !s92 -vlog01compat -work unnamed +incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules
+Z9 tCvgOpt 0
+valtera_modular_adc_control_avrg_fifo
+R1
+!i10b 1
+!s100 3PP^Skeh>7Md>NX@f6NlZ0
+R2
+I2H>1Cj06YnoQQ48KmLNMC2
+R3
+R0
+R4
+8C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_modular_adc_control_avrg_fifo.v
+FC:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_modular_adc_control_avrg_fifo.v
+!i122 32
+L0 66 54
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_modular_adc_control_avrg_fifo.v|
+!s90 -reportprogress|300|-vlog01compat|-work|unnamed|+incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules|C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_modular_adc_control_avrg_fifo.v|
+!i113 1
+R7
+R8
+R9
+valtera_modular_adc_control_fsm
+Z10 !s110 1718187892
+!i10b 1
+!s100 YTbH6`=badFX=YiT>G6BD0
+R2
+IHZ3D1FM_W?XiXJSQlIC7=0
+R3
+R0
+R4
+8C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_modular_adc_control_fsm.v
+FC:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_modular_adc_control_fsm.v
+!i122 33
+L0 31 978
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_modular_adc_control_fsm.v|
+!s90 -reportprogress|300|-vlog01compat|-work|unnamed|+incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules|C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_modular_adc_control_fsm.v|
+!i113 1
+R7
+R8
+R9
+valtera_modular_adc_sample_store
+R10
+!i10b 1
+!s100 3nJ8zS<<HmWnL_RJT[dME1
+R2
+IL<_5b7d`LNCz:ch6=XzEO3
+R3
+R0
+R4
+8C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_modular_adc_sample_store.v
+FC:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_modular_adc_sample_store.v
+!i122 34
+L0 31 199
+R5
+r1
+!s85 0
+31
+Z11 !s108 1718187892.000000
+!s107 C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_modular_adc_sample_store.v|
+!s90 -reportprogress|300|-vlog01compat|-work|unnamed|+incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules|C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_modular_adc_sample_store.v|
+!i113 1
+R7
+R8
+R9
+valtera_modular_adc_sample_store_ram
+R10
+!i10b 1
+!s100 jeaP5oeHe_@;IJ_GlA62N1
+R2
+I@DWH_<:hQAP6G`6K>Ae@n2
+R3
+R0
+R4
+8C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_modular_adc_sample_store_ram.v
+FC:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_modular_adc_sample_store_ram.v
+!i122 35
+L0 66 80
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_modular_adc_sample_store_ram.v|
+!s90 -reportprogress|300|-vlog01compat|-work|unnamed|+incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules|C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_modular_adc_sample_store_ram.v|
+!i113 1
+R7
+R8
+R9
+valtera_modular_adc_sequencer
+R10
+!i10b 1
+!s100 G?jEU[D;1gMj4;gIANTiU1
+R2
+IWC7I7_V:TL8^ST2hEVM6b0
+R3
+R0
+R4
+8C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_modular_adc_sequencer.v
+FC:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_modular_adc_sequencer.v
+!i122 36
+L0 31 388
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_modular_adc_sequencer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|unnamed|+incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules|C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_modular_adc_sequencer.v|
+!i113 1
+R7
+R8
+R9
+valtera_modular_adc_sequencer_csr
+R10
+!i10b 1
+!s100 =mMY@[_3iEj?>`f`b2Tj_3
+R2
+I`?CPBeZ;imj2^kMV58F033
+R3
+R0
+R4
+8C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_modular_adc_sequencer_csr.v
+FC:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_modular_adc_sequencer_csr.v
+!i122 37
+L0 31 110
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_modular_adc_sequencer_csr.v|
+!s90 -reportprogress|300|-vlog01compat|-work|unnamed|+incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules|C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_modular_adc_sequencer_csr.v|
+!i113 1
+R7
+R8
+R9
+valtera_modular_adc_sequencer_ctrl
+R10
+!i10b 1
+!s100 QVOLYB1QIOHfAakdBn4TC3
+R2
+IUgB9a@A]O?ZoPYEGNX7C82
+R3
+R0
+R4
+8C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_modular_adc_sequencer_ctrl.v
+FC:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_modular_adc_sequencer_ctrl.v
+!i122 38
+L0 31 303
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_modular_adc_sequencer_ctrl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|unnamed|+incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules|C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_modular_adc_sequencer_ctrl.v|
+!i113 1
+R7
+R8
+R9
+valtera_up_avalon_adv_adc
+!s110 1718187890
+!i10b 1
+!s100 ZbYBfN6=YhX[XeI>fU@CJ1
+R2
+IP8>lH`Y^0Y=ognC[O>Pf;1
+R3
+R0
+R4
+8C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_up_avalon_adv_adc.v
+FC:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_up_avalon_adv_adc.v
+!i122 30
+L0 23 668
+R5
+r1
+!s85 0
+31
+!s108 1718187890.000000
+!s107 C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_up_avalon_adv_adc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|unnamed|+incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules|C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/altera_up_avalon_adv_adc.v|
+!i113 1
+R7
+R8
+R9
+vchsel_code_converter_sw_to_hw
+R10
+!i10b 1
+!s100 gdiSkdX1c9J3;F^[3f7eT2
+R2
+Ih5i?;]acjni]YVPYeSf9G3
+R3
+R0
+R4
+8C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/chsel_code_converter_sw_to_hw.v
+FC:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/chsel_code_converter_sw_to_hw.v
+!i122 39
+L0 45 178
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/chsel_code_converter_sw_to_hw.v|
+!s90 -reportprogress|300|-vlog01compat|-work|unnamed|+incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules|C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/chsel_code_converter_sw_to_hw.v|
+!i113 1
+R7
+R8
+R9
+vDE10_Lite_ADC_Core_modular_adc_0
+R10
+!i10b 1
+!s100 A?^jEm@lgn6:>O3a_6L3e0
+R2
+IWZ0YmPP>>OkiK`j1cA8a70
+R3
+R0
+R4
+8C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/DE10_Lite_ADC_Core_modular_adc_0.v
+FC:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/DE10_Lite_ADC_Core_modular_adc_0.v
+!i122 40
+L0 22 269
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/DE10_Lite_ADC_Core_modular_adc_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|unnamed|+incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules|C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/DE10_Lite_ADC_Core_modular_adc_0.v|
+!i113 1
+R7
+R8
+R9
+n@d@e10_@lite_@a@d@c_@core_modular_adc_0
+vfiftyfivenm_adcblock_primitive_wrapper
+R10
+!i10b 1
+!s100 gBSPH9];`oVhfXQ`hJSMk0
+R2
+I?z^Q?bWbTn:I9bR7[dfD:2
+R3
+R0
+R4
+8C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/fiftyfivenm_adcblock_primitive_wrapper.v
+FC:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/fiftyfivenm_adcblock_primitive_wrapper.v
+!i122 41
+L0 50 207
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/fiftyfivenm_adcblock_primitive_wrapper.v|
+!s90 -reportprogress|300|-vlog01compat|-work|unnamed|+incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules|C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/fiftyfivenm_adcblock_primitive_wrapper.v|
+!i113 1
+R7
+R8
+R9
+vfiftyfivenm_adcblock_top_wrapper
+R10
+!i10b 1
+!s100 ]O93RWBbOIz_QRK<eW4nX0
+R2
+In_lPFcUN?KdW0mI4?ERXU2
+R3
+R0
+R4
+8C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/fiftyfivenm_adcblock_top_wrapper.v
+FC:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/fiftyfivenm_adcblock_top_wrapper.v
+!i122 42
+L0 44 218
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/fiftyfivenm_adcblock_top_wrapper.v|
+!s90 -reportprogress|300|-vlog01compat|-work|unnamed|+incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules|C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/fiftyfivenm_adcblock_top_wrapper.v|
+!i113 1
+R7
+R8
+R9
+Eunnamed
+Z12 w1717075722
+Z13 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z14 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z15 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 44
+R0
+Z16 8C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/unnamed.vhd
+Z17 FC:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/unnamed.vhd
+l0
+L9 1
+VK?[LDYAT_gJPB@DcN9R1k0
+!s100 QmS68Scm<UAo;Da`:2Ek;1
+Z18 OV;C;2020.1;71
+31
+Z19 !s110 1718187893
+!i10b 1
+Z20 !s108 1718187893.000000
+Z21 !s90 -reportprogress|300|-93|-work|unnamed|C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/unnamed.vhd|
+Z22 !s107 C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/unnamed.vhd|
+!i113 1
+Z23 o-93 -work unnamed
+Z24 tExplicit 1 CvgOpt 0
+Artl
+R13
+R14
+R15
+Z25 DEx4 work 7 unnamed 0 22 K?[LDYAT_gJPB@DcN9R1k0
+!i122 44
+l52
+Z26 L24 57
+Z27 V;dW1XaWGJ?lMebO1O_;jC1
+Z28 !s100 gnd6Lga5JW4zDiG^YmdE32
+R18
+31
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R23
+R24
+vunnamed_adc_mega_0
+R10
+!i10b 1
+!s100 kOQT4EhhX7ZMc?o62RWBQ3
+R2
+Im5kEnHjfKGXM>icQ?;ndB0
+R3
+R0
+R4
+8C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/unnamed_adc_mega_0.v
+FC:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/unnamed_adc_mega_0.v
+!i122 43
+L0 22 67
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/unnamed_adc_mega_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|unnamed|+incdir+C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules|C:/Users/Mariapaola/Documents/LaureaMagistrale/DPS_Teoria/Game/unnamed/synthesis/submodules/unnamed_adc_mega_0.v|
+!i113 1
+R7
+R8
+R9
