@@ -38,4 +38,3 @@ Il progetto dimostra come sia possibile realizzare giochi interattivi direttamen
 - Il punteggio viene visualizzato su tre display a 7 segmenti.
 - Il gioco può essere riavviato tramite uno switch sulla board (reset).
 
----
